@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ClutchSync"
+version = "0.1.0"
+description = ""
+authors = ["Spencer Ogden <spencer@spencerogden.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+chalice = "^1.21.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
